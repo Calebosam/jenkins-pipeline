@@ -2,9 +2,9 @@ pipeline{
     agent{
         label "jenkins-node-python-agent"
     }
-    environment{
-        PORT = 3000
-    }
+    // environment{
+    //     PORT = 3000
+    // }
     stages{
         stage("Install Dependencies"){
             steps{
