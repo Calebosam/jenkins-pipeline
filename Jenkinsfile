@@ -5,7 +5,7 @@ pipeline{
     stages{
         stage("Testing"){
             steps{
-                echo "========executing A========"
+                sh "node server.js"
             }
         }
     }
